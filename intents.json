@@ -1,0 +1,127 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "about_you",
+            "patterns": [
+                "Who are you?",
+                "What is your name?",
+                "What do you sell?",
+                "What products do you offer?",
+                "What do you do?",
+                "What services do you provide?",
+                "What services do you offer?",
+                "How can you help me with e-waste?"
+            ],
+            "responses": [
+                "Hi! I'm WasteBot, an AI bot, made to educate about e-waste recycling and also help in identify e-waste. I don't sell, but offer info on our company's e-waste services: finding local recyclers, scheduling pickups."        
+            ]
+        },
+        {
+            "tag": "about_ewaste",
+            "patterns": [
+                "What is e-waste?",
+                "Can you explain what e-waste is?"
+            ],
+            "responses": [
+                "E-waste stands for electronic waste. It refers to discarded electronics such as computers, mobile phones, TVs, printers, etc."
+            ]
+        },
+        {
+            "tag": "why_recycle",
+            "patterns": [
+                "Why should we recycle e-waste?",
+                "What's the importance of e-waste recycling?",
+                "Why should i recycle?",
+                "What is the benefit of recycling?"
+            ],
+            "responses": [
+                "Recycling e-waste prevents toxic materials from contaminating landfills. It also conserves natural resources and energy used to make new products."
+            ]
+        },
+        {
+            "tag": "consequences_ewaste",
+            "patterns": [
+                "What are the consequences of unmanaged e-waste?",
+                "What happens if e-waste is not recycled?"
+            ],
+            "responses": [
+                "Unmanaged e-waste can leach hazardous chemicals into soil and groundwater. It also takes up valuable space in landfills."
+            ]
+        },
+        {
+            "tag": "identify_ewaste",
+            "patterns": [
+                "Is broken printer e-waste?",
+                "Can my non-working monitor be considered e-waste?",
+                "Is my old phone e-waste?",
+                "Is my old computer e-waste?",
+                "Is my old TV e-waste?",
+                "Is my old laptop e-waste?",
+                "How do I identify whether an item is e-waste or not?"
+            ],
+            "responses": [
+                "Devices can be considered e-waste if it is no longer working or usable and you plan to discard it.",
+                "If your device is broken, outdated, or you want to get rid of it, then yes it would be considered e-waste."
+            ]
+        },
+        {
+            "tag": "positive_feedback",
+            "patterns": [
+                "You are helpful",
+                "I appreciate your assistance",
+                "You are great",
+                "I like your work",
+                "You work well"
+            ],
+            "responses": [
+                "Thank you, I'm glad I could help!",
+                "You're very welcome, happy to assist!"
+            ]
+        },
+        {
+            "tag": "negative_feedback",
+            "patterns": [
+                "You're not making much sense",
+                "You don't seem very helpful",
+                "You are not helpful",
+                "You are bad",
+                "You don't work properly"
+            ],
+            "responses": [
+                "I apologize for the confusion. Please rephrase your question and I'll try my best to assist.",
+                "I'm sorry I haven't been able to help. Let me know how I can better address your e-waste needs."
+            ]
+        }
+    ]        
+}
